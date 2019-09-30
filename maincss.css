@@ -1,0 +1,52 @@
+
+
+@font-face {
+  font-family: "sansation";
+  src: url("font/sansation/Sansation_Regular.ttf");
+}
+
+@media (min-width: 1420px) {
+
+.container.container-custom {
+    width: 990px;
+    height: 660px;
+  }
+}
+
+.navbar-nav {
+  font-size: 16px;
+}
+
+.carousel {
+  width: cover;
+  height: 800px;
+}
+
+.carousel-inner {
+  width: cover;
+  height: 800px;
+}
+
+.container-fluid h1, h2, h3 {
+    text-align: center;
+}
+
+nav {
+  margin-bottom: 0 !important;
+}
+
+body {
+  font-family: helvetica;
+}
+
+#firstPhoto {
+  margin-left: 0;
+}
+
+.Shipmap h1 {
+  text-align: center;
+
+}
+.form-row {
+  align: center;
+}

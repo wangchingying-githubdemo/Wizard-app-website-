@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title>About us </title>
+<head>
+  <link href="maincss.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<style>
+
+body {
+  background-image: url(assets/photo-12.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255,0.3);
+  background-blend-mode: lighten;
+  font-family: helvetica;
+}
+
+.container-fluid img {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  opacity: 0.9;
+  border: 3px solid #CFD9E3;
+}
+
+
+.jumbotron {
+  /*background-image: url(assets/photo-12.jpeg); */
+  background-size: cover;
+  background-color: rgba(255,255,255,1);
+  background-blend-mode: lighten;
+  text-align: center;
+  font-family: helvetica;
+}
+
+h1,h2 {
+  font-family: sansation;
+}
+
+section {
+  padding: 60px 0;
+  background-color: rgba(255,255,255,0);
+}
+
+.about, .line1, .line2, .line3 {
+  animation: showup 30s infinite;
+}
+
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+</style>
+
+<body>
+  <header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+    <img src="assets/CharterWLogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <b>CharterWizard</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="aboutus.html">About us</a>
+    </div>
+  </div>
+ </nav>
+  </header>
+
+<div class="jumbotron">
+  <h1 class="about">About</h1>
+  <h4 class="line1">Thanks for visiting our website, hope you enjoy. </h4>
+  <h4 class="line2">If you'd like to talk about anything with us, just click the photos below.</h4>
+  <h4 class="line3">Don't be afraid. We won't bite...maybe.</h4>
+</div>
+
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-4 align-self-center" style="text-align: center" >
+        <a href="http://peiwu.strikingly.com/">
+        <img id="PeiWu" href="#" src="assets/PeiWu02.jpg" class="img-fluid" /> </a>
+      </div>
+      <div class="col-lg-8 align-self-center">
+        <h2 style="color:#006bb3;font-size:45px;text-align:left"><b>Pei Wu</b></h2>
+        <h4 style="text-align:left"> Currently studying Shipping, Trade and Finance at Cass Business School.
+        <br> Have backgrounds in practical sea-going and marine insurance.
+        <br> Love learning, running marathons and everything about sea.
+        <br>
+        <br> CharterWizard is a real app project I'm working on, aiming to publish in 2019 (Hopefully!)
+      </h4>
+      </div>
+    </div>
+  </div>
+
+<hr class="my-4">
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-lg-8 align-self-center" >
+        <h2 style="color:#CE1F25;font-size:45px"><b>Ching-Ying Wang</b></h2>
+        <h3>Major in Quantitative Finance at Cass Business School
+        <br>Have a strong passion on Qunant analysis and econometrics.</h3>
+      </div>
+      <div class="col-lg-4 align-self-center" style="text-align: center" >
+        <a href="https://www.linkedin.com/in/ching-ying-wang-celesty-43601b161/">
+        <img id="Ching-Ying Wang" src="assets/Wang.jpg"> </a>
+      </div>
+    </div>
+  </div>
+
+<section id="footer">
+  <div class="container">
+    <div class="col text-center text-black">
+      <p><b>December 2018 CodeFirst : Girls<b></p>
+        <a href="https://www.codefirstgirls.org.uk/">
+        <img id="codefirstgirls" src="assets/cfg_logo2.png" width="150px" height="50px">
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
